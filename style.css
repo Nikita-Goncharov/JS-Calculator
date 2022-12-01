@@ -1,0 +1,196 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.calculator {
+    padding: 60px 0;
+    margin: 0 auto;
+}
+
+.manipulate-btns, .input-field {
+    margin: 0 auto;
+    padding: 30px 0 30px 0;
+    background-color: #003955;
+
+}
+
+.field {
+    border: none;
+    padding: 10px;
+    background-color: #efefef;
+}
+
+.manipulate-btns button {
+    padding: 10px 15px;
+    margin: 2px 3px;
+    border: none;
+    background-color: rgb(255, 0, 0, .0);
+    color: #fff;
+}
+
+.field:focus {
+    outline: none;
+}
+
+.manipulate-btns button:hover {
+    background-color: rgba(187, 187, 187, 0.1);
+}
+
+@media screen and (min-width: 1450px) {
+    .calculator {
+       width: 30%;
+    }
+
+    .manipulate-btns, .input-field {
+        width: 60%;
+    }
+
+
+    .field {
+        width: 76%;
+    }
+
+    .manipulate-btns button {
+        width: 25%;
+    }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1450px) {
+    .calculator {
+       width: 40%;
+    }
+
+    .manipulate-btns, .input-field {
+        width: 60%;
+    }
+
+
+    .field {
+        width: 76%;
+    }
+
+    .manipulate-btns button {
+        width: 25%;
+    }
+}
+
+@media screen and (min-width: 800px) and (max-width: 999px) {
+    .calculator {
+       width: 50%;
+    }
+
+    .manipulate-btns, .input-field {
+        width: 60%;
+    }
+
+
+    .field {
+       width: 76%;
+    }
+
+    .manipulate-btns button {
+       width: 25%;
+    }
+}
+
+
+@media screen and (min-width: 700px) and (max-width: 800px) {
+    .calculator {
+       width: 60%;
+    }
+
+    .manipulate-btns, .input-field {
+        width: 60%;
+    }
+
+
+    .field {
+       width: 82%;
+    }
+
+    .manipulate-btns button {
+       width: 25%;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 700px) {
+    .calculator {
+       width: 60%;
+    }
+
+    .manipulate-btns, .input-field {
+        width: 70%;
+    }
+
+
+    .field {
+       width: 82%;
+    }
+
+    .manipulate-btns button {
+       width: 25%;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 600px) {
+    .calculator {
+       width: 70%;
+    }
+
+    .manipulate-btns, .input-field {
+        width: 70%;
+    }
+
+
+    .field {
+       width: 82%;
+    }
+
+    .manipulate-btns button {
+       width: 25%;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width: 500px) {
+    .calculator {
+       width: 90%;
+    }
+
+    .manipulate-btns, .input-field {
+        width: 70%;
+    }
+
+
+    .field {
+       width: 82%;
+    }
+
+    .manipulate-btns button {
+       width: 25%;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 400px) {
+    .calculator {
+       width: 90%;
+    }
+
+    .manipulate-btns, .input-field {
+        width: 80%;
+    }
+
+
+    .field {
+       width: 82%;
+    }
+
+    .manipulate-btns button {
+       width: 25%;
+    }
+}
